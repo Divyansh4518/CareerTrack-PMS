@@ -26,7 +26,7 @@ The database strictly adheres to the following constraints and normalization rul
 
 ## 📊 Entity-Relationship Diagram
 *(Upload the ER Diagram PNG to a `Diagrams` folder in this repo, then the image will appear here!)*
-![ER Diagram](./Diagrams/ER_Diagram.png)
+![ER Diagram](./Diagrams/ER_DIAGRAM.jpeg)
 
 ## 🚀 Quick Start (Running the Database)
 1. Clone this repository to your local machine.

@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="753pt" height="1479pt" viewBox="0.00 0.00 753.00 1479.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1475.2)">
+<title>CAREERTRACK_ERD</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1475.2 749.48,-1475.2 749.48,4 -4,4"/>
+<!-- MEMBER -->
+<g id="node1" class="node">
+<title>MEMBER</title>
+<path fill="#d9edf7" stroke="black" d="M552.83,-1064.4C552.83,-1064.4 464.8,-1064.4 464.8,-1064.4 458.8,-1064.4 452.8,-1058.4 452.8,-1052.4 452.8,-1052.4 452.8,-871.2 452.8,-871.2 452.8,-865.2 458.8,-859.2 464.8,-859.2 464.8,-859.2 552.83,-859.2 552.83,-859.2 558.83,-859.2 564.83,-865.2 564.83,-871.2 564.83,-871.2 564.83,-1052.4 564.83,-1052.4 564.83,-1058.4 558.83,-1064.4 552.83,-1064.4"/>
+<text xml:space="preserve" text-anchor="start" x="485.81" y="-1044.6" font-family="Arial" font-weight="bold" font-size="12.00">Member</text>
+<text xml:space="preserve" text-anchor="start" x="466.8" y="-1020.2" font-family="Arial" text-decoration="underline" font-size="12.00">MemberID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="466.8" y="-994.8" font-family="Arial" font-size="12.00">Name</text>
+<text xml:space="preserve" text-anchor="start" x="466.8" y="-970.4" font-family="Arial" font-size="12.00">Image</text>
+<text xml:space="preserve" text-anchor="start" x="466.8" y="-946" font-family="Arial" font-size="12.00">Age</text>
+<text xml:space="preserve" text-anchor="start" x="466.8" y="-921.6" font-family="Arial" font-size="12.00">Email</text>
+<text xml:space="preserve" text-anchor="start" x="466.8" y="-897.2" font-family="Arial" font-size="12.00">ContactNumber</text>
+<text xml:space="preserve" text-anchor="start" x="466.8" y="-872.8" font-family="Arial" font-size="12.00">CGPA</text>
+</g>
+<!-- R5 -->
+<g id="node17" class="node">
+<title>R5</title>
+<polygon fill="none" stroke="black" points="485.81,-633.2 437.01,-615.2 485.81,-597.2 534.61,-615.2 485.81,-633.2"/>
+<text xml:space="preserve" text-anchor="middle" x="485.81" y="-611.6" font-family="Arial" font-size="12.00">applies</text>
+</g>
+<!-- MEMBER&#45;&gt;R5 -->
+<g id="edge9" class="edge">
+<title>MEMBER-&gt;R5</title>
+<path fill="none" stroke="black" d="M493.7,-858.75C493.7,-858.75 493.7,-642.12 493.7,-642.12"/>
+<polygon fill="black" stroke="black" points="497.2,-642.12 493.7,-632.12 490.2,-642.12 497.2,-642.12"/>
+<text xml:space="preserve" text-anchor="middle" x="498.87" y="-742.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- R9 -->
+<g id="node21" class="node">
+<title>R9</title>
+<polygon fill="none" stroke="black" points="679.81,-633.2 614.15,-615.2 679.81,-597.2 745.48,-615.2 679.81,-633.2"/>
+<text xml:space="preserve" text-anchor="middle" x="679.81" y="-611.6" font-family="Arial" font-size="12.00">possesses</text>
+</g>
+<!-- MEMBER&#45;&gt;R9 -->
+<g id="edge20" class="edge">
+<title>MEMBER-&gt;R9</title>
+<path fill="none" stroke="black" d="M557,-859.16C557,-756.89 557,-615 557,-615 557,-615 601.5,-615 601.5,-615"/>
+<polygon fill="black" stroke="black" points="601.5,-618.5 611.5,-615 601.5,-611.5 601.5,-618.5"/>
+<text xml:space="preserve" text-anchor="middle" x="591.87" y="-742.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- DEPT -->
+<g id="node2" class="node">
+<title>DEPT</title>
+<path fill="#d9edf7" stroke="black" d="M624.15,-1446.8C624.15,-1446.8 553.47,-1446.8 553.47,-1446.8 547.47,-1446.8 541.47,-1440.8 541.47,-1434.8 541.47,-1434.8 541.47,-1351.2 541.47,-1351.2 541.47,-1345.2 547.47,-1339.2 553.47,-1339.2 553.47,-1339.2 624.15,-1339.2 624.15,-1339.2 630.15,-1339.2 636.15,-1345.2 636.15,-1351.2 636.15,-1351.2 636.15,-1434.8 636.15,-1434.8 636.15,-1440.8 630.15,-1446.8 624.15,-1446.8"/>
+<text xml:space="preserve" text-anchor="start" x="555.47" y="-1427" font-family="Arial" font-weight="bold" font-size="12.00">Department</text>
+<text xml:space="preserve" text-anchor="start" x="555.47" y="-1402.6" font-family="Arial" text-decoration="underline" font-size="12.00">DeptID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="555.47" y="-1377.2" font-family="Arial" font-size="12.00">DeptName</text>
+<text xml:space="preserve" text-anchor="start" x="555.47" y="-1352.8" font-family="Arial" font-size="12.00">HODName</text>
+</g>
+<!-- R1 -->
+<g id="node13" class="node">
+<title>R1</title>
+<polygon fill="none" stroke="black" points="588.81,-1207.6 521.32,-1189.6 588.81,-1171.6 656.3,-1189.6 588.81,-1207.6"/>
+<text xml:space="preserve" text-anchor="middle" x="588.81" y="-1186" font-family="Arial" font-size="12.00">belongs_to</text>
+</g>
+<!-- DEPT&#45;&gt;R1 -->
+<g id="edge1" class="edge">
+<title>DEPT-&gt;R1</title>
+<path fill="none" stroke="black" d="M588.81,-1338.76C588.81,-1338.76 588.81,-1219.6 588.81,-1219.6"/>
+<polygon fill="black" stroke="black" points="592.31,-1219.6 588.81,-1209.6 585.31,-1219.6 592.31,-1219.6"/>
+<text xml:space="preserve" text-anchor="middle" x="591.87" y="-1257.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- COMPANY -->
+<g id="node3" class="node">
+<title>COMPANY</title>
+<path fill="#d9edf7" stroke="black" d="M213.16,-1471.2C213.16,-1471.2 118.47,-1471.2 118.47,-1471.2 112.47,-1471.2 106.47,-1465.2 106.47,-1459.2 106.47,-1459.2 106.47,-1326.8 106.47,-1326.8 106.47,-1320.8 112.47,-1314.8 118.47,-1314.8 118.47,-1314.8 213.16,-1314.8 213.16,-1314.8 219.16,-1314.8 225.16,-1320.8 225.16,-1326.8 225.16,-1326.8 225.16,-1459.2 225.16,-1459.2 225.16,-1465.2 219.16,-1471.2 213.16,-1471.2"/>
+<text xml:space="preserve" text-anchor="start" x="138.48" y="-1451.4" font-family="Arial" font-weight="bold" font-size="12.00">Company</text>
+<text xml:space="preserve" text-anchor="start" x="120.47" y="-1427" font-family="Arial" text-decoration="underline" font-size="12.00">CompanyID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="120.47" y="-1401.6" font-family="Arial" font-size="12.00">CompanyName</text>
+<text xml:space="preserve" text-anchor="start" x="120.47" y="-1377.2" font-family="Arial" font-size="12.00">Website</text>
+<text xml:space="preserve" text-anchor="start" x="120.47" y="-1352.8" font-family="Arial" font-size="12.00">Industry</text>
+<text xml:space="preserve" text-anchor="start" x="120.47" y="-1328.4" font-family="Arial" font-size="12.00">Location</text>
+</g>
+<!-- R2 -->
+<g id="node14" class="node">
+<title>R2</title>
+<polygon fill="none" stroke="black" points="54.81,-1207.6 0,-1189.6 54.81,-1171.6 109.63,-1189.6 54.81,-1207.6"/>
+<text xml:space="preserve" text-anchor="middle" x="54.81" y="-1186" font-family="Arial" font-size="12.00">employs</text>
+</g>
+<!-- COMPANY&#45;&gt;R2 -->
+<g id="edge3" class="edge">
+<title>COMPANY-&gt;R2</title>
+<path fill="none" stroke="black" d="M120.22,-1314.51C120.22,-1257.39 120.22,-1190 120.22,-1190 120.22,-1190 119.2,-1190 119.2,-1190"/>
+<polygon fill="black" stroke="black" points="121.52,-1186.5 111.52,-1190 121.52,-1193.5 121.52,-1186.5"/>
+<text xml:space="preserve" text-anchor="middle" x="94.87" y="-1257.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- R3 -->
+<g id="node15" class="node">
+<title>R3</title>
+<polygon fill="none" stroke="black" points="221.81,-1207.6 181.45,-1189.6 221.81,-1171.6 262.17,-1189.6 221.81,-1207.6"/>
+<text xml:space="preserve" text-anchor="middle" x="221.81" y="-1186" font-family="Arial" font-size="12.00">posts</text>
+</g>
+<!-- COMPANY&#45;&gt;R3 -->
+<g id="edge5" class="edge">
+<title>COMPANY-&gt;R3</title>
+<path fill="none" stroke="black" d="M203.31,-1314.36C203.31,-1314.36 203.31,-1211.24 203.31,-1211.24"/>
+<polygon fill="black" stroke="black" points="206.81,-1211.24 203.31,-1201.24 199.81,-1211.24 206.81,-1211.24"/>
+<text xml:space="preserve" text-anchor="middle" x="214.87" y="-1257.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- RECRUITER -->
+<g id="node4" class="node">
+<title>RECRUITER</title>
+<path fill="#d9edf7" stroke="black" d="M118.82,-812.2C118.82,-812.2 26.81,-812.2 26.81,-812.2 20.81,-812.2 14.81,-806.2 14.81,-800.2 14.81,-800.2 14.81,-692.2 14.81,-692.2 14.81,-686.2 20.81,-680.2 26.81,-680.2 26.81,-680.2 118.82,-680.2 118.82,-680.2 124.82,-680.2 130.82,-686.2 130.82,-692.2 130.82,-692.2 130.82,-800.2 130.82,-800.2 130.82,-806.2 124.82,-812.2 118.82,-812.2"/>
+<text xml:space="preserve" text-anchor="start" x="46.47" y="-792.4" font-family="Arial" font-weight="bold" font-size="12.00">Recruiter</text>
+<text xml:space="preserve" text-anchor="start" x="28.81" y="-768" font-family="Arial" text-decoration="underline" font-size="12.00">RecruiterID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="28.81" y="-742.6" font-family="Arial" font-size="12.00">Name</text>
+<text xml:space="preserve" text-anchor="start" x="28.81" y="-718.2" font-family="Arial" font-size="12.00">Email</text>
+<text xml:space="preserve" text-anchor="start" x="28.81" y="-693.8" font-family="Arial" font-size="12.00">Phone</text>
+</g>
+<!-- R7 -->
+<g id="node19" class="node">
+<title>R7</title>
+<polygon fill="none" stroke="black" points="287.81,-275.2 223.94,-257.2 287.81,-239.2 351.68,-257.2 287.81,-275.2"/>
+<text xml:space="preserve" text-anchor="middle" x="287.81" y="-253.6" font-family="Arial" font-size="12.00">scheduled</text>
+</g>
+<!-- RECRUITER&#45;&gt;R7 -->
+<g id="edge17" class="edge">
+<title>RECRUITER-&gt;R7</title>
+<path fill="none" stroke="black" d="M72.81,-679.72C72.81,-545.96 72.81,-257 72.81,-257 72.81,-257 211.5,-257 211.5,-257"/>
+<polygon fill="black" stroke="black" points="211.5,-260.5 221.5,-257 211.5,-253.5 211.5,-260.5"/>
+<text xml:space="preserve" text-anchor="middle" x="99.87" y="-540.3" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- DRIVE -->
+<g id="node5" class="node">
+<title>DRIVE</title>
+<path fill="#d9edf7" stroke="black" d="M438.84,-1471.2C438.84,-1471.2 344.79,-1471.2 344.79,-1471.2 338.79,-1471.2 332.79,-1465.2 332.79,-1459.2 332.79,-1459.2 332.79,-1326.8 332.79,-1326.8 332.79,-1320.8 338.79,-1314.8 344.79,-1314.8 344.79,-1314.8 438.84,-1314.8 438.84,-1314.8 444.84,-1314.8 450.84,-1320.8 450.84,-1326.8 450.84,-1326.8 450.84,-1459.2 450.84,-1459.2 450.84,-1465.2 444.84,-1471.2 438.84,-1471.2"/>
+<text xml:space="preserve" text-anchor="start" x="346.79" y="-1451.4" font-family="Arial" font-weight="bold" font-size="12.00">PlacementDrive</text>
+<text xml:space="preserve" text-anchor="start" x="346.79" y="-1427" font-family="Arial" text-decoration="underline" font-size="12.00">DriveID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="346.79" y="-1401.6" font-family="Arial" font-size="12.00">DriveName</text>
+<text xml:space="preserve" text-anchor="start" x="346.79" y="-1377.2" font-family="Arial" font-size="12.00">Year</text>
+<text xml:space="preserve" text-anchor="start" x="346.79" y="-1352.8" font-family="Arial" font-size="12.00">StartDate</text>
+<text xml:space="preserve" text-anchor="start" x="346.79" y="-1328.4" font-family="Arial" font-size="12.00">EndDate</text>
+</g>
+<!-- R4 -->
+<g id="node16" class="node">
+<title>R4</title>
+<polygon fill="none" stroke="black" points="391.81,-1207.6 333.98,-1189.6 391.81,-1171.6 449.65,-1189.6 391.81,-1207.6"/>
+<text xml:space="preserve" text-anchor="middle" x="391.81" y="-1186" font-family="Arial" font-size="12.00">conducts</text>
+</g>
+<!-- DRIVE&#45;&gt;R4 -->
+<g id="edge7" class="edge">
+<title>DRIVE-&gt;R4</title>
+<path fill="none" stroke="black" d="M391.81,-1314.36C391.81,-1314.36 391.81,-1219.34 391.81,-1219.34"/>
+<polygon fill="black" stroke="black" points="395.31,-1219.34 391.81,-1209.34 388.31,-1219.34 395.31,-1219.34"/>
+<text xml:space="preserve" text-anchor="middle" x="394.87" y="-1257.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- JOB -->
+<g id="node6" class="node">
+<title>JOB</title>
+<path fill="#d9edf7" stroke="black" d="M350.84,-1052.2C350.84,-1052.2 270.79,-1052.2 270.79,-1052.2 264.79,-1052.2 258.79,-1046.2 258.79,-1040.2 258.79,-1040.2 258.79,-883.4 258.79,-883.4 258.79,-877.4 264.79,-871.4 270.79,-871.4 270.79,-871.4 350.84,-871.4 350.84,-871.4 356.84,-871.4 362.84,-877.4 362.84,-883.4 362.84,-883.4 362.84,-1040.2 362.84,-1040.2 362.84,-1046.2 356.84,-1052.2 350.84,-1052.2"/>
+<text xml:space="preserve" text-anchor="start" x="278.15" y="-1032.4" font-family="Arial" font-weight="bold" font-size="12.00">JobPosting</text>
+<text xml:space="preserve" text-anchor="start" x="272.79" y="-1008" font-family="Arial" text-decoration="underline" font-size="12.00">JobID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="272.79" y="-982.6" font-family="Arial" font-size="12.00">RoleTitle</text>
+<text xml:space="preserve" text-anchor="start" x="272.79" y="-958.2" font-family="Arial" font-size="12.00">Description</text>
+<text xml:space="preserve" text-anchor="start" x="272.79" y="-933.8" font-family="Arial" font-size="12.00">Package_LPA</text>
+<text xml:space="preserve" text-anchor="start" x="272.79" y="-909.4" font-family="Arial" font-size="12.00">PostDate</text>
+<text xml:space="preserve" text-anchor="start" x="272.79" y="-885" font-family="Arial" font-size="12.00">Deadline</text>
+</g>
+<!-- JOB&#45;&gt;R5 -->
+<g id="edge11" class="edge">
+<title>JOB-&gt;R5</title>
+<path fill="none" stroke="black" d="M363.19,-962C400.23,-962 443.33,-962 443.33,-962 443.33,-962 443.33,-629.31 443.33,-629.31"/>
+<polygon fill="black" stroke="black" points="446.83,-629.31 443.33,-619.31 439.83,-629.31 446.83,-629.31"/>
+<text xml:space="preserve" text-anchor="middle" x="405.87" y="-742.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- R6 -->
+<g id="node18" class="node">
+<title>R6</title>
+<polygon fill="none" stroke="black" points="293.81,-633.2 228.13,-615.2 293.81,-597.2 359.49,-615.2 293.81,-633.2"/>
+<text xml:space="preserve" text-anchor="middle" x="293.81" y="-611.6" font-family="Arial" font-size="12.00">has_round</text>
+</g>
+<!-- JOB&#45;&gt;R6 -->
+<g id="edge12" class="edge">
+<title>JOB-&gt;R6</title>
+<path fill="none" stroke="black" d="M309.14,-871.19C309.14,-871.19 309.14,-640.95 309.14,-640.95"/>
+<polygon fill="black" stroke="black" points="312.64,-640.95 309.14,-630.95 305.64,-640.95 312.64,-640.95"/>
+<text xml:space="preserve" text-anchor="middle" x="304.87" y="-742.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- APPLICATION -->
+<g id="node7" class="node">
+<title>APPLICATION</title>
+<path fill="#d9edf7" stroke="black" d="M520.48,-490C520.48,-490 451.15,-490 451.15,-490 445.15,-490 439.15,-484 439.15,-478 439.15,-478 439.15,-394.4 439.15,-394.4 439.15,-388.4 445.15,-382.4 451.15,-382.4 451.15,-382.4 520.48,-382.4 520.48,-382.4 526.48,-382.4 532.48,-388.4 532.48,-394.4 532.48,-394.4 532.48,-478 532.48,-478 532.48,-484 526.48,-490 520.48,-490"/>
+<text xml:space="preserve" text-anchor="start" x="453.15" y="-470.2" font-family="Arial" font-weight="bold" font-size="12.00">Application</text>
+<text xml:space="preserve" text-anchor="start" x="453.15" y="-445.8" font-family="Arial" text-decoration="underline" font-size="12.00">AppID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="453.15" y="-420.4" font-family="Arial" font-size="12.00">ApplyDate</text>
+<text xml:space="preserve" text-anchor="start" x="453.15" y="-396" font-family="Arial" font-size="12.00">Status</text>
+</g>
+<!-- APPLICATION&#45;&gt;R7 -->
+<g id="edge14" class="edge">
+<title>APPLICATION-&gt;R7</title>
+<path fill="none" stroke="black" d="M438.65,-436C415.97,-436 393.64,-436 393.64,-436 393.64,-436 393.64,-257 393.64,-257 393.64,-257 364.24,-257 364.24,-257"/>
+<polygon fill="black" stroke="black" points="364.24,-253.5 354.24,-257 364.24,-260.5 364.24,-253.5"/>
+<text xml:space="preserve" text-anchor="middle" x="391.87" y="-325.5" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- R8 -->
+<g id="node20" class="node">
+<title>R8</title>
+<polygon fill="none" stroke="black" points="486.81,-275.2 425.97,-257.2 486.81,-239.2 547.65,-257.2 486.81,-275.2"/>
+<text xml:space="preserve" text-anchor="middle" x="486.81" y="-253.6" font-family="Arial" font-size="12.00">results_in</text>
+</g>
+<!-- APPLICATION&#45;&gt;R8 -->
+<g id="edge18" class="edge">
+<title>APPLICATION-&gt;R8</title>
+<path fill="none" stroke="black" d="M485.81,-382.01C485.81,-382.01 485.81,-286.63 485.81,-286.63"/>
+<polygon fill="black" stroke="black" points="489.31,-286.63 485.81,-276.63 482.31,-286.63 489.31,-286.63"/>
+<text xml:space="preserve" text-anchor="middle" x="489.87" y="-325.5" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- ROUND -->
+<g id="node8" class="node">
+<title>ROUND</title>
+<path fill="#d9edf7" stroke="black" d="M337.82,-490C337.82,-490 243.81,-490 243.81,-490 237.81,-490 231.81,-484 231.81,-478 231.81,-478 231.81,-394.4 231.81,-394.4 231.81,-388.4 237.81,-382.4 243.81,-382.4 243.81,-382.4 337.82,-382.4 337.82,-382.4 343.82,-382.4 349.82,-388.4 349.82,-394.4 349.82,-394.4 349.82,-478 349.82,-478 349.82,-484 343.82,-490 337.82,-490"/>
+<text xml:space="preserve" text-anchor="start" x="245.81" y="-470.2" font-family="Arial" font-weight="bold" font-size="12.00">InterviewRound</text>
+<text xml:space="preserve" text-anchor="start" x="245.81" y="-445.8" font-family="Arial" text-decoration="underline" font-size="12.00">RoundID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="245.81" y="-420.4" font-family="Arial" font-size="12.00">RoundType</text>
+<text xml:space="preserve" text-anchor="start" x="245.81" y="-396" font-family="Arial" font-size="12.00">RoundNumber</text>
+</g>
+<!-- ROUND&#45;&gt;R7 -->
+<g id="edge16" class="edge">
+<title>ROUND-&gt;R7</title>
+<path fill="none" stroke="black" d="M290.81,-382.01C290.81,-382.01 290.81,-286.21 290.81,-286.21"/>
+<polygon fill="black" stroke="black" points="294.31,-286.21 290.81,-276.21 287.31,-286.21 294.31,-286.21"/>
+<text xml:space="preserve" text-anchor="middle" x="291.87" y="-325.5" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- SCHEDULE -->
+<g id="node9" class="node">
+<title>SCHEDULE</title>
+<path fill="#d9edf7" stroke="black" d="M340.5,-119.8C340.5,-119.8 231.13,-119.8 231.13,-119.8 225.13,-119.8 219.13,-113.8 219.13,-107.8 219.13,-107.8 219.13,-24.2 219.13,-24.2 219.13,-18.2 225.13,-12.2 231.13,-12.2 231.13,-12.2 340.5,-12.2 340.5,-12.2 346.5,-12.2 352.5,-18.2 352.5,-24.2 352.5,-24.2 352.5,-107.8 352.5,-107.8 352.5,-113.8 346.5,-119.8 340.5,-119.8"/>
+<text xml:space="preserve" text-anchor="start" x="233.13" y="-100" font-family="Arial" font-weight="bold" font-size="12.00">InterviewSchedule</text>
+<text xml:space="preserve" text-anchor="start" x="233.13" y="-75.6" font-family="Arial" text-decoration="underline" font-size="12.00">ScheduleID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="233.13" y="-50.2" font-family="Arial" font-size="12.00">InterviewDate</text>
+<text xml:space="preserve" text-anchor="start" x="233.13" y="-25.8" font-family="Arial" font-size="12.00">MeetingLink</text>
+</g>
+<!-- OFFER -->
+<g id="node10" class="node">
+<title>OFFER</title>
+<path fill="#d9edf7" stroke="black" d="M537.18,-132C537.18,-132 436.45,-132 436.45,-132 430.45,-132 424.45,-126 424.45,-120 424.45,-120 424.45,-12 424.45,-12 424.45,-6 430.45,0 436.45,0 436.45,0 537.18,0 537.18,0 543.18,0 549.18,-6 549.18,-12 549.18,-12 549.18,-120 549.18,-120 549.18,-126 543.18,-132 537.18,-132"/>
+<text xml:space="preserve" text-anchor="start" x="442.46" y="-112.2" font-family="Arial" font-weight="bold" font-size="12.00">PlacementOffer</text>
+<text xml:space="preserve" text-anchor="start" x="438.45" y="-87.8" font-family="Arial" text-decoration="underline" font-size="12.00">OfferID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="438.45" y="-62.4" font-family="Arial" font-size="12.00">OfferDate</text>
+<text xml:space="preserve" text-anchor="start" x="438.45" y="-38" font-family="Arial" font-size="12.00">FinalPackage</text>
+<text xml:space="preserve" text-anchor="start" x="438.45" y="-13.6" font-family="Arial" font-size="12.00">AcceptanceStatus</text>
+</g>
+<!-- SKILL -->
+<g id="node11" class="node">
+<title>SKILL</title>
+<path fill="#d9edf7" stroke="black" d="M714.48,-1015.6C714.48,-1015.6 649.14,-1015.6 649.14,-1015.6 643.14,-1015.6 637.14,-1009.6 637.14,-1003.6 637.14,-1003.6 637.14,-920 637.14,-920 637.14,-914 643.14,-908 649.14,-908 649.14,-908 714.48,-908 714.48,-908 720.48,-908 726.48,-914 726.48,-920 726.48,-920 726.48,-1003.6 726.48,-1003.6 726.48,-1009.6 720.48,-1015.6 714.48,-1015.6"/>
+<text xml:space="preserve" text-anchor="start" x="669.47" y="-995.8" font-family="Arial" font-weight="bold" font-size="12.00">Skill</text>
+<text xml:space="preserve" text-anchor="start" x="651.14" y="-971.4" font-family="Arial" text-decoration="underline" font-size="12.00">SkillID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="651.14" y="-946" font-family="Arial" font-size="12.00">SkillName</text>
+<text xml:space="preserve" text-anchor="start" x="651.14" y="-921.6" font-family="Arial" font-size="12.00">Category</text>
+</g>
+<!-- SKILL&#45;&gt;R9 -->
+<g id="edge22" class="edge">
+<title>SKILL-&gt;R9</title>
+<path fill="none" stroke="black" d="M681.81,-907.64C681.81,-907.64 681.81,-644.62 681.81,-644.62"/>
+<polygon fill="black" stroke="black" points="685.31,-644.62 681.81,-634.62 678.31,-644.62 685.31,-644.62"/>
+<text xml:space="preserve" text-anchor="middle" x="684.87" y="-742.9" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- STUDSKILL -->
+<g id="node12" class="node">
+<title>STUDSKILL</title>
+<path fill="#d9edf7" stroke="black" d="M725.5,-477.8C725.5,-477.8 634.13,-477.8 634.13,-477.8 628.13,-477.8 622.13,-471.8 622.13,-465.8 622.13,-465.8 622.13,-406.6 622.13,-406.6 622.13,-400.6 628.13,-394.6 634.13,-394.6 634.13,-394.6 725.5,-394.6 725.5,-394.6 731.5,-394.6 737.5,-400.6 737.5,-406.6 737.5,-406.6 737.5,-465.8 737.5,-465.8 737.5,-471.8 731.5,-477.8 725.5,-477.8"/>
+<text xml:space="preserve" text-anchor="start" x="645.14" y="-458" font-family="Arial" font-weight="bold" font-size="12.00">StudentSkill</text>
+<text xml:space="preserve" text-anchor="start" x="636.13" y="-433.6" font-family="Arial" text-decoration="underline" font-size="12.00">ID (PK)</text>
+<text xml:space="preserve" text-anchor="start" x="636.13" y="-408.2" font-family="Arial" font-size="12.00">ProficiencyLevel</text>
+</g>
+<!-- R1&#45;&gt;MEMBER -->
+<g id="edge2" class="edge">
+<title>R1-&gt;MEMBER</title>
+<path fill="none" stroke="black" d="M543.08,-1183.51C543.08,-1183.51 543.08,-1076.27 543.08,-1076.27"/>
+<polygon fill="black" stroke="black" points="546.58,-1076.26 543.08,-1066.27 539.58,-1076.27 546.58,-1076.26"/>
+<text xml:space="preserve" text-anchor="middle" x="517.39" y="-1114.7" font-family="Arial" font-size="11.00">M</text>
+</g>
+<!-- R2&#45;&gt;RECRUITER -->
+<g id="edge4" class="edge">
+<title>R2-&gt;RECRUITER</title>
+<path fill="none" stroke="black" d="M62.22,-1173.56C62.22,-1173.56 62.22,-823.99 62.22,-823.99"/>
+<polygon fill="black" stroke="black" points="65.72,-823.99 62.22,-813.99 58.72,-823.99 65.72,-823.99"/>
+<text xml:space="preserve" text-anchor="middle" x="65.39" y="-1114.7" font-family="Arial" font-size="11.00">M</text>
+</g>
+<!-- R3&#45;&gt;JOB -->
+<g id="edge6" class="edge">
+<title>R3-&gt;JOB</title>
+<path fill="none" stroke="black" d="M262.31,-1190C280.3,-1190 297.48,-1190 297.48,-1190 297.48,-1190 297.48,-1064.16 297.48,-1064.16"/>
+<polygon fill="black" stroke="black" points="300.98,-1064.16 297.48,-1054.16 293.98,-1064.16 300.98,-1064.16"/>
+<text xml:space="preserve" text-anchor="middle" x="265.39" y="-1114.7" font-family="Arial" font-size="11.00">M</text>
+</g>
+<!-- R4&#45;&gt;JOB -->
+<g id="edge8" class="edge">
+<title>R4-&gt;JOB</title>
+<path fill="none" stroke="black" d="M348.41,-1184.84C348.41,-1184.84 348.41,-1064.13 348.41,-1064.13"/>
+<polygon fill="black" stroke="black" points="351.91,-1064.13 348.41,-1054.13 344.91,-1064.13 351.91,-1064.13"/>
+<text xml:space="preserve" text-anchor="middle" x="393.39" y="-1114.7" font-family="Arial" font-size="11.00">M</text>
+</g>
+<!-- R5&#45;&gt;APPLICATION -->
+<g id="edge10" class="edge">
+<title>R5-&gt;APPLICATION</title>
+<path fill="none" stroke="black" d="M485.81,-596.72C485.81,-596.72 485.81,-501.7 485.81,-501.7"/>
+<polygon fill="black" stroke="black" points="489.31,-501.7 485.81,-491.7 482.31,-501.7 489.31,-501.7"/>
+<text xml:space="preserve" text-anchor="middle" x="490.39" y="-540.3" font-family="Arial" font-size="11.00">M</text>
+</g>
+<!-- R6&#45;&gt;ROUND -->
+<g id="edge13" class="edge">
+<title>R6-&gt;ROUND</title>
+<path fill="none" stroke="black" d="M290.81,-597.71C290.81,-597.71 290.81,-501.97 290.81,-501.97"/>
+<polygon fill="black" stroke="black" points="294.31,-501.97 290.81,-491.97 287.31,-501.97 294.31,-501.97"/>
+<text xml:space="preserve" text-anchor="middle" x="295.39" y="-540.3" font-family="Arial" font-size="11.00">M</text>
+</g>
+<!-- R7&#45;&gt;SCHEDULE -->
+<g id="edge15" class="edge">
+<title>R7-&gt;SCHEDULE</title>
+<path fill="none" stroke="black" d="M287.81,-238.87C287.81,-238.87 287.81,-131.54 287.81,-131.54"/>
+<polygon fill="black" stroke="black" points="291.31,-131.54 287.81,-121.54 284.31,-131.54 291.31,-131.54"/>
+<text xml:space="preserve" text-anchor="middle" x="290.39" y="-182.3" font-family="Arial" font-size="11.00">M</text>
+</g>
+<!-- R8&#45;&gt;OFFER -->
+<g id="edge19" class="edge">
+<title>R8-&gt;OFFER</title>
+<path fill="none" stroke="black" d="M486.81,-238.87C486.81,-238.87 486.81,-143.83 486.81,-143.83"/>
+<polygon fill="black" stroke="black" points="490.31,-143.83 486.81,-133.83 483.31,-143.83 490.31,-143.83"/>
+<text xml:space="preserve" text-anchor="middle" x="489.87" y="-182.3" font-family="Arial" font-size="11.00">1</text>
+</g>
+<!-- R9&#45;&gt;STUDSKILL -->
+<g id="edge21" class="edge">
+<title>R9-&gt;STUDSKILL</title>
+<path fill="none" stroke="black" d="M679.81,-596.72C679.81,-596.72 679.81,-489.66 679.81,-489.66"/>
+<polygon fill="black" stroke="black" points="683.31,-489.66 679.81,-479.66 676.31,-489.66 683.31,-489.66"/>
+<text xml:space="preserve" text-anchor="middle" x="684.39" y="-540.3" font-family="Arial" font-size="11.00">M</text>
+</g>
+</g>
+</svg>

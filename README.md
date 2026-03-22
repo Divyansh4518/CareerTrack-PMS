@@ -25,6 +25,8 @@ We brought the CareerTrack system to life using a modern backend architecture:
 * **Role-Based Access Control (RBAC):** Implemented secure session handling, restricting specific endpoints based on user roles (Admin, Placement Officer, Student).
 * **Audit Logging:** Engineered a dedicated `audit.py` interceptor that strictly logs all system access attempts and data modifications (recording timestamp, user ID, and action) to ensure maximum security accountability.
 
+The reports and the explaination video are present in the report folder and all the details are mentioned there.
+
 ### 👨‍💻 Assignment 2 Contributions
 * **Pramith Joy (23110152):** Core B+ Tree storage engine implementation, algorithmic complexity analysis, and benchmarking reports (Module A).
 * **Bhavitha Somireddy (24110350):** Flask web application architecture, REST API endpoint development, and modular routing (Module B).

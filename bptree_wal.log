@@ -1,0 +1,142 @@
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 1, "action": "START"}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "Students", "action": "INSERT", "key": "3", "old_value": null, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": null, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 1, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": null, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 1, "action": "COMMIT"}
+{"tx_id": 2, "action": "START"}
+{"tx_id": 2, "table": "Students", "action": "INSERT", "key": "1", "old_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 2, "table": "Students", "action": "INSERT", "key": "2", "old_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 2, "table": "Students", "action": "INSERT", "key": "3", "old_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 2, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 2, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 2, "action": "COMMIT"}
+{"tx_id": 3, "action": "START"}
+{"tx_id": 3, "table": "Students", "action": "INSERT", "key": "1", "old_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}, "new_value": {"Name": "Divyansh Saini", "CGPA": 8.5, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 3, "table": "Students", "action": "INSERT", "key": "2", "old_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}, "new_value": {"Name": "Pramith Joy", "CGPA": 8.8, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 3, "table": "Students", "action": "INSERT", "key": "3", "old_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}, "new_value": {"Name": "Garv Singhal", "CGPA": 9.2, "IsPlaced": 0, "applications_count": 0}}
+{"tx_id": 3, "table": "JobPostings", "action": "INSERT", "key": "1", "old_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}, "new_value": {"RoleTitle": "Software Engineer", "MinCGPA": 7.5, "applicants": 0}}
+{"tx_id": 3, "table": "JobPostings", "action": "INSERT", "key": "2", "old_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}, "new_value": {"RoleTitle": "Data Scientist", "MinCGPA": 8.0, "applicants": 0}}
+{"tx_id": 3, "action": "COMMIT"}
+{"tx_id": 4, "action": "START"}
+{"tx_id": 5, "action": "START"}

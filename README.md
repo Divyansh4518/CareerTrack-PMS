@@ -7,8 +7,30 @@ Many institutions handle placement activities manually, leading to data duplicat
 
 ---
 
-## 🚀 Assignment 2: Web Application & Storage Engine
+## 🌟 Assignment 3: Transaction Management & Recovery
 *Current Submission*
+
+Building upon our storage engine and web application from previous assignments, this phase focuses on ensuring data integrity, concurrent access control, and crash recovery. We upgraded our custom database engine to be fully ACID-compliant.
+
+### 🌐 Module B: Reliability & Stress Testing
+To ensure our web application and database components can handle real-world scenarios:
+* **Module B Tests:** We created a comprehensive test suite in the `Module_B_Test` directory to validate the functionality and reliability of the web application endpoints.
+* **Concurrency Stress Testing:** Implemented `acid_stress_test.py` to simulate high-concurrency workloads, guaranteeing that our transactional isolation and locking mechanisms hold up under pressure without data corruption.
+
+### ⚙️ Module A: ACID-Compliant B+ Tree Storage Engine
+We overhauled our custom B+ Tree database engine to guarantee ACID properties:
+* **Atomicity:** Built an undo buffer mechanism for `BEGIN`, `COMMIT`, and `ROLLBACK` commands spanning multiple independent B+ Trees simultaneously.
+* **Consistency:** Engineered a robust constraint validation engine enforcing Primary Key uniqueness, Foreign Key integrity, and domain constraints prior to data insertion.
+* **Isolation:** Integrated per-transaction global locking (`threading.Lock`) that provides Strict Serializable isolation, preventing dirty reads and lost updates.
+* **Durability:** Implemented Write-Ahead Logging (WAL) with `fsync` guarantees. Designed a pure-redo crash recovery protocol to rebuild memory states exclusively from committed transactions in `bptree_wal.log`.
+* **ACID Test Suite:** Created `acid_test_suite_Module_A.py` with 20 targeted tests to aggressively validate our Atomicity, Consistency, Isolation, and Durability implementations.
+
+For a deeper dive into Module A's implementation, see the detailed [Module A README](./Module_A/database/README.md).
+
+---
+
+## 🚀 Assignment 2: Web Application & Storage Engine
+*Previous Submission*
 
 Building upon our relational database design from Assignment 1, this phase transitions the project from a conceptual schema into a fully functional, secure web application, while also exploring the low-level mechanics of database storage.
 

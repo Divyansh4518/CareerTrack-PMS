@@ -11,7 +11,7 @@ def test_single_lookup(user_id):
     try:
         conn = get_db_connection(user_id)
         cursor = conn.cursor(dictionary=True)
-        cursor.execute("SELECT * FROM Users WHERE UserID = %s", (user_id,))
+        cursor.execute("SELECT * FROM users WHERE UserID = %s", (user_id,))
         user = cursor.fetchone()
         
         if user:
@@ -39,7 +39,7 @@ def test_range_query(min_id, max_id):
                 database=metadata['database']
             )
             cursor = conn.cursor(dictionary=True)
-            cursor.execute("SELECT * FROM Users WHERE UserID BETWEEN %s AND %s", (min_id, max_id))
+            cursor.execute("SELECT * FROM users WHERE UserID BETWEEN %s AND %s", (min_id, max_id))
             users = cursor.fetchall()
             print(f"   -> Shard {i} (Port {port}) returned {len(users)} records.")
             all_users.extend(users)

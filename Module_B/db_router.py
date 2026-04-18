@@ -1,24 +1,27 @@
-import sqlite3
+import mysql.connector
+import json
 
-NUM_SHARDS = 3
-GLOBAL_DB = 'careertrack.db'
+def load_metadata():
+    """Loads the central metadata catalog."""
+    with open('metadata.json', 'r') as f:
+        return json.load(f)
 
 def get_shard_id(user_id):
-    """Calculates the hash to find the correct shard."""
-    return user_id % NUM_SHARDS
+    """Calculates the hash based on metadata."""
+    metadata = load_metadata()
+    return user_id % metadata['num_shards']
 
-def get_db_connection(user_id=None):
-    """
-    Routes to the correct shard if user_id is provided.
-    Otherwise, defaults to the global database for non-sharded tables.
-    """
-    if user_id is not None:
-        shard_id = get_shard_id(user_id)
-        db_name = f'shard_{shard_id}.db'
-        conn = sqlite3.connect(db_name)
-    else:
-        # Connect to the main DB for tables like JobPosting or Company
-        conn = sqlite3.connect(GLOBAL_DB)
+def get_db_connection(user_id):
+    """Routes to the correct MySQL shard on the IITGN network."""
+    metadata = load_metadata()
+    shard_id = str(get_shard_id(user_id))
+    port = metadata['nodes'][shard_id]
     
-    conn.row_factory = sqlite3.Row
+    conn = mysql.connector.connect(
+        host=metadata['host'],
+        port=port,
+        user=metadata['user'],
+        password=metadata['password'],
+        database=metadata['database']
+    )
     return conn

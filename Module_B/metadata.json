@@ -1,0 +1,14 @@
+{
+    "partition_strategy": "hash",
+    "shard_key": "UserID",
+    "num_shards": 3,
+    "host": "10.0.116.184",
+    "user": "Big_Data",
+    "password": "password@123",
+    "database": "Big_Data",
+    "nodes": {
+        "0": 3307,
+        "1": 3308,
+        "2": 3309
+    }
+}
